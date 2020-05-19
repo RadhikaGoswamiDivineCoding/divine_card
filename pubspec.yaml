@@ -1,5 +1,5 @@
 name: divine_card
-description: A new Flutter package.
+description: It provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
 version: 0.0.1
 author: Radhika Goswami <radhika.divinecoding@gmail.com>
 homepage: https://github.com/RadhikaGoswamiDivineCoding/divine_card

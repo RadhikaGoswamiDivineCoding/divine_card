@@ -1,8 +1,8 @@
 # Divine_Card - Animated Flutter Package
 
-SlimyCard provides a beautiful slime-like animation of a Card that separates into two different Cards, one at the top and the another at bottom. It is possible to put any custom widget in these two separate cards.
+It provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
 
-![Banner Image](https://raw.githubusercontent.com/AkashDivya/SlimyCard-Animated-Flutter-Package/master/images/SlimyCard-Animated-Flutter-Package-by-Akash-Divya.png)
+![Banner Image]()
 
 # How to install this package
 
@@ -39,45 +39,6 @@ SlimyCard provides a beautiful slime-like animation of a Card that separates int
     
   - **2. Use It**
   
-    Create a ListView, and in its children use SlimyCard()
-    
-    ```
-    ListView(
-      children: <Widget>[
-        SlimyCard(),
-      ],
-    );
-    ```
-    
-  - **3. Customize It**
-    
-    You can customize SlimyCard as per need, by using the following parameters:
-    
-    ```
-    ListView(
-      children: <Widget>[
-        SlimyCard(
-          color: Colors.red,
-          width: 200,
-          topCardHeight: 400,
-          bottomCardHeight: 200,
-          borderRadius: 15,
-          topCardWidget: myWidget01(),
-          bottomCardWidget: myWidget02(),
-          slimeEnabled: true,
-        ),
-      ],
-    ),
-    ```
-    
-    
-# Actual ScreenShots
-....
-
-# How to get the status of this package
-
-  You can get the **real-time** status of this Package by wrapping the SlimeyCard in **StreamBuilder** as below:
-  
   ```
    divineCard(
      height: 200.0,
@@ -107,10 +68,6 @@ Hi! my name is Radhika Goswami.
 I'm 16 year Girl who get's amazed by seeing apps and wondered if I can too make these and just because of
 Flutter now I can create APPs of my own !
  
-# Other Repo you may Like
-
-[![Explore Flutter Firebase](https://raw.githubusercontent.com/AkashDivya/Explore-Flutter-FireStore/master/images/Banner.jpg)](https://github.com/AkashDivya/Explore-Flutter-FireStore)
-
 [Visit this Repo](https://github.com/RadhikaGoswamiDivineCoding)
 
 # Find me on
