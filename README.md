@@ -2,7 +2,7 @@
 
 Divine_Card provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
 
-<img src="banner.png"  />
+<img src="banners.png"  />
 
 # How to install this package
 
