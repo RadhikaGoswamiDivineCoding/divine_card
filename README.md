@@ -2,7 +2,7 @@
 
 It provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
 
-<img src="banner.png" width="400" />
+<img src="banner.png"  />
 
 # How to install this package
 
