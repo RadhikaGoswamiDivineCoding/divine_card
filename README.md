@@ -12,7 +12,7 @@ Divine_Card provides a beautiful card with Images,buttons and tagline(text) stac
     
     ```
     dependencies:
-      divine_card: ^0.0.1
+      divine_card: ^0.0.2
     ```
     
   - **2. Install it**

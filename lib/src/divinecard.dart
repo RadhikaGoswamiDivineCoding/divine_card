@@ -41,6 +41,7 @@ class divineCard extends StatelessWidget {
   final ImageProvider img;
 
   @override
+
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
