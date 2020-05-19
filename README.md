@@ -1,6 +1,6 @@
 # Divine_Card - Animated Flutter Package
 
-It provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
+Divine_Card provides a beautiful card with Images,buttons and tagline(text) stack upon it with beautiful offset shadow.
 
 <img src="banner.png"  />
 
