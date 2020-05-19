@@ -2,7 +2,7 @@ name: divine_card
 description: A new Flutter package.
 version: 0.0.1
 author: Radhika Goswami <radhika.divinecoding@gmail.com>
-homepage: https://github.com/RadhikaGoswamiDivineCoding/DivineCards
+homepage: https://github.com/RadhikaGoswamiDivineCoding/divine_card
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

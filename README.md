@@ -1,107 +1,125 @@
-# divinecard
+# Divine_Card - Animated Flutter Package
 
-Makes an interesting splash effect when tapping its child widget.
+SlimyCard provides a beautiful slime-like animation of a Card that separates into two different Cards, one at the top and the another at bottom. It is possible to put any custom widget in these two separate cards.
 
-## Getting Started
-To use this plugin, add divine_card as a dependency in your pubspec.yaml file.
+![Banner Image](https://raw.githubusercontent.com/AkashDivya/SlimyCard-Animated-Flutter-Package/master/images/SlimyCard-Animated-Flutter-Package-by-Akash-Divya.png)
 
-The color can be set with the splashColor property. The splash size is dependent on the size of the child widget passed in - which is constrained by the minRadius and maxRadius parameters.
+# How to install this package
 
-##Example
-import 'package:flutter/material.dart';
+  - **1. Depend on it**
 
-class HomePage extends StatefulWidget {
-  @override
-  _HomePageState createState() => _HomePageState();
-}
+    Add this to your flutter app's pubspec.yaml file:
+    
+    ```
+    dependencies:
+      divine_card: ^0.0.1
+    ```
+    
+  - **2. Install it**
+    
+    You can install packages from the command line:
 
-class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
-  TabController _tabController;
-  @override
-  void initState() {
-    _tabController = TabController(vsync: this, length: 3);
-    super.initState();
-  }
+    with Flutter:
+    
+    ```
+    $ flutter pub get
+    ```
+    
+    Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
+    
+# How to use this package
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
-        leading: Icon(
-          Icons.menu,
-          color: Color(0xFF4F3C75),
-          size: 30,
-        ),
-        elevation: 0.0,
-        backgroundColor: Colors.white,
-      ),
-      body: Padding(
-        padding: const EdgeInsets.only(left: 20.0, right: 20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Choose your problem -',
-              style: TextStyle(
-                  color: Color(0xFF4F3C75),
-                  fontSize: 25.0,
-                  fontWeight: FontWeight.bold),
-            ),
-            Text(
-              'face it.',
-              style: TextStyle(
-                  color: Color(0xFF4F3C75),
-                  fontSize: 25.0,
-                  fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            TabBar(
-              labelColor: Color(0xFF4F3C75),
-              controller: _tabController,
-              unselectedLabelColor: Color(0xFF4F3C75),
-              isScrollable: true,
-              indicatorColor: Color(0xFF4F3C75),
-              tabs: <Widget>[
-                Tab(
-                  text: "Full list",
-                ),
-                Tab(
-                  text: "Popular",
-                ),
-                Tab(
-                  text: "Rare cases",
-                ),
-              ],
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            divineCard(
-              buttonText: 'Learn more',
-              buttonColor: Colors.black,
-              blurRadius: 12.0,
-              icon: Icons.arrow_forward_ios,
-              iconColor: Colors.black,
-              buttonBackground: Colors.white,
-              height: 200.0,
-              color: Color(0xFF00578D),
-              fontSize: 18.0,
-              fontColor: Colors.white,
-              title: 'Your text goes',
-              subtitle: 'Here..',
-              img: AssetImage('images/Picture2.png'),
-              imgHeight: 200.0,
-              imgWidth: 200.0,
-              shadowColor: Colors.black38,
-            ),
-            SizedBox(height: 20.0,),
-
-          ],
-        ),
-      ),
+  - **1. Import it**
+  
+    In your Dart code, import the package as mentioned below:
+    
+    ```
+    import 'package:divine_card/divine_card.dart';
+    ```
+    
+  - **2. Use It**
+  
+    Create a ListView, and in its children use SlimyCard()
+    
+    ```
+    ListView(
+      children: <Widget>[
+        SlimyCard(),
+      ],
     );
-  }
-}
+    ```
+    
+  - **3. Customize It**
+    
+    You can customize SlimyCard as per need, by using the following parameters:
+    
+    ```
+    ListView(
+      children: <Widget>[
+        SlimyCard(
+          color: Colors.red,
+          width: 200,
+          topCardHeight: 400,
+          bottomCardHeight: 200,
+          borderRadius: 15,
+          topCardWidget: myWidget01(),
+          bottomCardWidget: myWidget02(),
+          slimeEnabled: true,
+        ),
+      ],
+    ),
+    ```
+    
+    
+# Actual ScreenShots
+....
+
+# How to get the status of this package
+
+  You can get the **real-time** status of this Package by wrapping the SlimeyCard in **StreamBuilder** as below:
+  
+  ```
+   divineCard(
+     height: 200.0,
+     color: Color(0xFF00578D),
+     shadowColor: Colors.black38,
+     blurRadius: 12.0,
+     img: AssetImage('images/Picture2.png'),
+     imgHeight: 200.0,
+     imgWidth: 200.0,
+     buttonText: 'Your Text',
+     buttonColor: Colors.black,
+     buttonBackground: Colors.white,
+     icon: Icons.arrow_forward_ios,
+     iconColor: Colors.black,
+     title: 'Your text goes',
+     subtitle: 'Here..',
+     fontSize: 18.0,
+     fontColor: Colors.white,
+ 
+             ),
+  ```
+
+# About Me
+
+Hi! my name is Radhika Goswami.
+
+I'm 16 year Girl who get's amazed by seeing apps and wondered if I can too make these and just because of
+Flutter now I can create APPs of my own !
+ 
+# Other Repo you may Like
+
+[![Explore Flutter Firebase](https://raw.githubusercontent.com/AkashDivya/Explore-Flutter-FireStore/master/images/Banner.jpg)](https://github.com/AkashDivya/Explore-Flutter-FireStore)
+
+[Visit this Repo](https://github.com/RadhikaGoswamiDivineCoding)
+
+# Find me on
+
+**[YouTube](https://www.youtube.com/channel/UC96JyllXkE4_Gfh9eLyaovw)**
+
+**[Twitter](https://twitter.com/DivineCoding)**
+
+
+**Email: radhika.divinecoding@gmail.com**
+
+**Have a nice fluttery day! **
